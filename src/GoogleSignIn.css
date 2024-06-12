@@ -1,0 +1,49 @@
+.google-signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+  
+  .google-signin-card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .google-signin-card h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .google-signin-card p {
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .google-signin-button {
+    display: flex;
+    align-items: center;
+    background: #b0c7ec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .google-signin-button:hover {
+    background: #357ae8;
+  }
+  
+  .google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
