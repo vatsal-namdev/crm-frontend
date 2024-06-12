@@ -3,12 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-  const navigate = useNavigate();
 
   const handleLogout = () => {
-    // Perform any logout operations here, e.g., clearing session data
-    // Redirect to the login page
-    navigate('/');
+        window.location.href = 'http://localhost:3001/logout';
   };
 
   return (
